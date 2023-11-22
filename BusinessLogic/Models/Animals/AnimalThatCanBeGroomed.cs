@@ -2,15 +2,15 @@
 
 namespace Zoo.BusinessLogic.Models.Animals
 {
-  public class Zebra : AnimalThatCanBeGroomed, ILargeAnimal
-  {
-    //private DateTime lastGroomed;
-
-    public Zebra(DateTime dateOfBirth) : base(dateOfBirth)
+    public class AnimalThatCanBeGroomed : Animal
     {
-    }
 
-    /* public void Groom()
+      private DateTime lastGroomed;
+        public AnimalThatCanBeGroomed(DateTime dateOfBirth) : base(dateOfBirth)
+        {
+        }
+
+        public void Groom()
     {
       lastGroomed = DateTime.Now;
     }
@@ -18,6 +18,6 @@ namespace Zoo.BusinessLogic.Models.Animals
     public override string ToString()
     {
       return base.ToString() + $"; Last Groomed {lastGroomed}";
-    } */
-  }
+    }
+    }
 }
