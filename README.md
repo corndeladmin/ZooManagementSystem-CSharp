@@ -18,5 +18,5 @@
 4. Open a command-prompt in the project folder.  
    Your trainer can show you how to do this, if you need any help.
 
-5. Change directory to "TableTennisTable-CSharp", and run this command to run your code:  
+5. Change directory to "ZooManagement-CSharp", and run this command to run your code:  
    `dotnet run`
